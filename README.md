@@ -8,13 +8,13 @@ Need to install nmap, and python's yam with
 # configure
 Edit update-tuya-address.py and change the settings
 
-MAC_ADDRESS = '84:f3:eb:32:e3:b4'
-NET_MASK = '192.168.1.1/24'
-OCTOPI_CONFIG = '/home/pi/.octoprint/config.yaml'
+>MAC_ADDRESS = '84:f3:eb:32:e3:b4'
+>NET_MASK = '192.168.1.1/24'
+>OCTOPI_CONFIG = '/home/pi/.octoprint/config.yaml'
 
 with values that will match your config.
 
 # run
-./update-tuya-address.py
+>./update-tuya-address.py
 
 
